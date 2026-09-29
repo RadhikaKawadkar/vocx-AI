@@ -1,0 +1,39 @@
+# Model files (too large)
+model/xlm_roberta_language_detection_v2_600k_final/
+*.safetensors
+*.bin
+
+# Data files
+data/
+*.csv
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Cache
+.pytest_cache/
+.coverage
